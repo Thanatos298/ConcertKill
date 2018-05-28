@@ -566,6 +566,7 @@ GameObject:
   - component: {fileID: 2049313446}
   - component: {fileID: 2049313445}
   - component: {fileID: 2049313448}
+  - component: {fileID: 2049313449}
   m_Layer: 0
   m_Name: PersonajePixel
   m_TagString: Player
@@ -656,3 +657,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!95 &2049313449
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2049313444}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a739bc6ad906f34f8c5b1863612bd7c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
